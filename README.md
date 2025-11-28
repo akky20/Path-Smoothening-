@@ -12,7 +12,7 @@ Complete implementation of path smoothing, trajectory generation, and trajectory
 ## Path Comparison Visualization
 The following plot illustrates the comparison between the original discrete waypoints (red), the smoothed continuous path (blue). This demonstrates the effectiveness of cubic spline smoothing in eliminating sharp corners while maintaining waypoint fidelity.
 
-![Path Comparison: Original Waypoints vs. Smoothed Path vs. Actual Trajectory](/src/trajectory_tracking/trajectory_tracking/path_comparison.png)
+![Path Comparison: Original Waypoints vs. Smoothed Path vs. Actual Trajectory](trajectory_tracking/trajectory_tracking/path_comparison.png)
 
 ## Installation
 
