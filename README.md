@@ -12,7 +12,8 @@ Complete implementation of path smoothing, trajectory generation, and trajectory
 ## Path Comparison Visualization
 The following plot illustrates the comparison between the original discrete waypoints (red), the smoothed continuous path (blue). This demonstrates the effectiveness of cubic spline smoothing in eliminating sharp corners while maintaining waypoint fidelity.
 
-![Path Comparison: Original Waypoints vs. Smoothed Path vs. Actual Trajectory](trajectory_tracking/trajectory_tracking/path_comparison.png)
+<img width="3569" height="2364" alt="path_comparison" src="https://github.com/user-attachments/assets/e5654376-252d-41a2-927c-1c16fd3228ab" />
+
 
 ## Installation
 
@@ -29,7 +30,7 @@ pip3 install numpy scipy matplotlib
 
 # Build workspace
 cd ~/robot_ws
-colcon build --packages-select trajectory_tracking
+colcon build --packages-select trajectory_tracking/<pacakge-name>
 source install/setup.bash
 ```
 
@@ -85,7 +86,7 @@ python3 ~/robot_ws/src/trajectory_tracking/analysis_plotting.py
 3. Modify trajectory in real-time to avoid obstacles (set a min. dstance from the object)
 
 ## AI Tools Used
-- **Claude AI**: Architecture design, algorithm selection
+- **Claude AI**: Architecture and code design
 - **GitHub Copilot**: Code completion and boilerplate
 
 ## Some Parameters
